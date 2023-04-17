@@ -2,14 +2,14 @@ import styled from 'styled-components';
 import './App.css';
 import Nav from './components/Nav';
 import Banner from './components/Banner';
+import Category from './components/Category';
 
 function App() {
   return (
     <Container>
-      <div className="App">
         <Nav />
         <Banner />
-      </div>
+        <Category />
     </Container>
   );
 }
