@@ -1,6 +1,6 @@
 const requests = {
-    fatchNowPlaying: "movie/now_playing",
-    fatchTrending: "/trending/all/week",
+    fetchNowPlaying: "movie/now_playing",
+    fetchTrending: "/trending/all/week",
     fetchTopRated: "/movie/top_rated",
     fetchActionMovies: "/discover/movie?with_genres=28",
     fetchComedyMovies: "/discover/movie?with_genres=35",
